@@ -7,6 +7,7 @@ let http = require("http"),
 
 let isProduction = process.env.NODE_ENV === "production";
 
+
 // Create global app object
 let app = express();
 
